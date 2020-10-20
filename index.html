@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>An Ode to Cardcaptor Sakura</title>
+    <meta name="author" content="Nadieh Bremer - Visual Cinnamon">
+    <meta name="title" content="An Ode to Cardcaptor Sakura">
+    <meta name="description" content="Discover all of Cardcaptor Sakura and see why it's one of the most beautiful manga ever made">
+    <meta name="keywords" content="data, visualization, visualisation, data visualization, data visualisation, information, information visualization, information visualisation, dataviz, datavis, infoviz, infovis, collaboration, data art">
+    <meta name="theme-color" content="#eb5580">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+    
+    <!-- Social media -->
+    <meta property="og:title" content="An Ode to Cardcaptor Sakura">
+    <meta property="og:site_name" content="Visual Cinnamon">
+    <meta property="og:url" content="https://cardcaptorsakura.visualcinnamon.com">
+    <meta property="og:description" content="Discover all of Cardcaptor Sakura and see why it's one of the most beautiful manga ever made">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://cardcaptorsakura.visualcinnamon.com/img/cardcaptorsakura_feature.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1920">
+	<meta property="og:image:height" content="1080">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NadiehBremer">
+    <meta name="twitter:creator" content="@NadiehBremer">
+    <meta name="twitter:title" content="An Ode to Cardcaptor Sakura">
+    <meta name="twitter:description" content="Discover all of Cardcaptor Sakura and see why it's one of the most beautiful manga ever made">
+    <meta name="twitter:image:src" content="https://cardcaptorsakura.visualcinnamon.com/img/cardcaptorsakura_feature.jpg">
+
+	<!-- Styling -->
+    <link href="css/style.css" rel="stylesheet">
+    
+	<!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,400i,600|Barlow:400" rel="stylesheet">
+    
+	<!-- JavaScript plugin files -->
+	<script src="plugins/d3.min.js"></script>
+	<script src="plugins/d3-annotation.min.js"></script>
+	<script src="plugins/webfont.js"></script>
+
+	<!-- Custom JavaScript files -->
+	<script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+	<div class="outer-container" id="top-outer-container">
+		<!-- Intro -->
+		<div id="intro-container">
+			<img id="ccs-logo" src="img/sakura-cmyk-dot-pink.jpg" />
+			<div id="title-container">
+				<div id="title">
+					<div id="sub-title">Fifty chapters of adorable cuteness</div>
+					<div id="main-title">Cardcaptor Sakura</div>
+				</div>
+			</div>
+			<div id="intro">
+				<p class="intro-text" style="margin-top: 0px;"><span class="anime pink">Cardcaptor Sakura</span> is one of the most beautiful and adorable manga series (a Japanese comic) ever created. The series was written and illustrated by the manga artist group CLAMP between 1996 and 2000, but is still extremely popular today.</p>
+			</div>
+		</div>
+
+		<div id="story-intro">
+			<div id="story-intro-text">
+				<p>The series focuses on <span class="anime pink character">Sakura Kinomoto</span>, a fourth grade elementary school student. After opening a book in her father's library she releases a set of 19 magical cards, which start to cause different kinds of mischief. The Guardian of these cards, <span class="anime yellow character">Kero</span>, a cute magical stuffed-animal-like lion, tasks Sakura to retrieve the cards in order to avoid an unknown catastrophe from befalling the world.</p>
+			</div>
+			<div id="read-more-button"><p>read more...</p></div>
+		</div>
+
+		<div id="character-intro" class="read-more">
+			<div class="character-group" id="character-group-1">
+				<img class="manga-mobile-img" src="img/manga-img-1.jpg" />
+				<div id="character-text-1" class="character-text">
+					<p>Sakura has one sibling, her 17-year old brother <span class="anime pink character">Toya Kinomoto</span>. He has magical powers, however, unlike Sakura, his manifest themselves with him seeing ghosts and being aware of magical beings, but also having a "sixth sense" for detecting impending threats.</p>
+					<div id="color-explanation">
+						<p class="pink">Human with magical powers</p>
+						<p class="green">Normal human</p>
+						<p class="yellow">Magical being</p>
+					</div>
+					<p>Sakura's father, <span class="anime green character">Fujitaka Kinomoto</span> is a college professor of archaeology at Towa University. He's extremely kind and caring, and although he's very busy with his work, he finds time for his children whenever he can. Her mother, <span class="anime green character">Nadeshiko Kinomoto</span> sadly died when Sakura was only 3. She was exceptionally beautiful and used to work as a model. In the series Nadeshiko is sometimes seen as an angel, although only Toya is able to see her.</p>
+					<p>Sakura's best friend <span class="anime green character">Tomoyo Daidouji</span> designs and creates the cute outfits that Sakura wears while capturing cards. She also makes sure to record any special event with her video camera. Tomoyo's mother, <span class="anime green character">Sonomi Daidouji</span>, is the president of a big toy company, but also the cousin of Nadeshiko.</p></p>
+				</div>
+				<div class="manga-img manga-img-right">
+					<div id="manga-img-1"></div>
+				</div>
+			</div>						
+
+			<div class="character-group" id="character-group-2">
+				<img class="manga-mobile-img" src="img/manga-img-2.jpg" />
+				<div class="manga-img manga-img-left">
+					<div id="manga-img-2"></div>
+				</div>
+				<div id="character-text-2" class="character-text">
+					<p>Early on, <span class="anime pink character">Syaoran Li</span> joins the class. Being a distant relative of Clow Reed, the creator of the Clow cards, he is sent to Sakura's city by his family to start collecting the cards.</p> 
+					<p><span class="anime yellow character">Yukito Tsukishiro</span> is Toya's best friend and Sakura's big crush. He is very kind and gentle and is hardly ever seen without a smile. We slowly learn during the first arc that there is more to him than meets the eye.</p>
+					<p>Halfway during the first arc, <span class="anime pink character">Kaho Mizuki</span> joins Sakura's school as a substitute math teacher. She remains a kind and mysterious person throughout the arc.</p>
+					<p>During the second arc, <span class="anime pink character">Eriol Hiiragizawa</span> joins Sakura's class. He creates a series of "magical disasters" in order to force Sakura to convert the Clow cards into her own Sakura cards. Eriol is helped in this by his own two Guardians: <span class="anime yellow character">Spinel Sun</span> being the counterpart of Kero and <span class="anime yellow character">Ruby Moon</span> being the counterpart of Yue.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="divider-line"></div>
+
+		<div id="annotation-explanation">
+			<p id="visual-explanation"><span id="green-gradient">Green annotations</span> around the main circle explain <i>how</i> to read the visual</p>
+			<p id="story-annotation"><span id="pink-gradient">Pink annotations</span> around the main circle are story explorations.<br><span style="font-style: italic; color: #838383;">Click here to <span id="hide-show">hide</span> these spoilers</span></p>
+		</div>
+	</div>
+
+	<!-- Chart -->
+	<div id="chart-container">
+		<div id="chart"></div>
+	</div>
+
+	<div class="outer-container">
+		<div class="divider-line"></div>
+		<!-- Legend -->
+		<div id="visual-explanation-container">
+			<div id="circle-layer-explanation">
+				<img id="layer-legend" src="img/ccs-layer-legend.jpg" />
+				<svg version="1.1" id="layer-legend-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					width="1400px" height="1400px" viewBox="0 0 1400 1400" xml:space="preserve">
+					<style type="text/css">
+						.st0 { fill: none; }
+						.st1 { font-family: 'Barlow Semi Condensed', sans-serif; font-weight: 400; }
+						.st2 { font-size: 39px; }
+						.st3 { font-family: 'Barlow Semi Condensed', sans-serif; font-weight: 600; }
+						.st4 { font-size: 34px; }
+						.st5 { text-anchor: middle; }
+					</style>
+					<text id="relation_x5F_text" transform="matrix(1 0 0 1 629.9378 615.5477)">
+						<tspan x="0" y="0" class="st1 st2">Hover for </tspan>
+						<tspan x="-65.4" y="46.8" class="st1 st2">information about </tspan>
+						<tspan x="-25.7" y="93.6" class="st3 st2">connections </tspan>
+						<tspan x="-64.5" y="140.4" class="st1 st2">between the main </tspan>
+						<tspan x="-11.8" y="187.2" class="st1 st2">characters</tspan>
+					</text>
+					<g id="character_x5F_text">
+						<path id="SVGID_x5F_1_x5F_" class="st0" d="M945,700c0,135.3-109.7,245-245,245S455,835.3,455,700s109.7-245,245-245 S945,564.7,945,700z" />
+						<text>
+							<textPath xlink:href="#SVGID_x5F_1_x5F_" startOffset="75%">
+								<tspan class="st1 st5" style="font-size:42px;">Hover for information about a </tspan>
+								<tspan class="st3 st5" style="font-size:42px;">character</tspan>
+							</textPath>
+						</text>
+					</g>
+					<path id="chapter_x5F_x5F_x5F_text_x5F_1_x5F_" class="st0" d="M1200,700c0,276.1-223.9,500-500,500S200,976.1,200,700 s223.9-500,500-500S1200,423.9,1200,700z" />
+					<text id="chapter_x5F_text">
+						<textPath xlink:href="#chapter_x5F_x5F_x5F_text_x5F_1_x5F_" startOffset="75%">
+							<tspan class="st1 st5" style="font-size:42px;">Hover to see which characters appear in a </tspan>
+							<tspan class="st3 st5" style="font-size:42px;">chapter</tspan>
+						</textPath>
+					</text>
+					<path id="cover_x5F_x5F_x5F_text_x5F_1_x5F_" class="st0" d="M1287.5,700c0,324.5-263,587.5-587.5,587.5s-587.5-263-587.5-587.5 s263-587.5,587.5-587.5S1287.5,375.5,1287.5,700z" />
+					<text id="cover_x5F_text">
+						<textPath xlink:href="#cover_x5F_x5F_x5F_text_x5F_1_x5F_" startOffset="75%">
+							<tspan class="st1 st5" style="font-size:42px;">Hover to see which characters are on the chapter’s </tspan>
+							<tspan class="st3 st5" style="font-size:42px;">cover art</tspan>
+						</textPath>
+					</text>
+					<text id="volume_x5F_text" transform="matrix(1 0 0 1 490.726 1092.1196)">
+							<tspan x="0" y="0" class="st1 st4">The </tspan>
+							<tspan x="56.1" y="0" class="st3 st4">dotted line</tspan>
+							<tspan x="200.7" y="0" class="st1 st4"> </tspan>
+							<tspan x="0" y="40.8" class="st1 st4">outlines the chapters </tspan>
+							<tspan x="0" y="81.6" class="st1 st4">that form a </tspan>
+							<tspan x="152.8" y="81.6" class="st3 st4">volume</tspan>
+						</text>
+						<text id="chapter_x5F_pil_x5F_text" transform="matrix(1 0 0 1 212 700)">
+							<tspan x="0" y="0" class="st1 st4">Each </tspan>
+							<tspan x="72.1" y="0" class="st3 st4">pil </tspan>
+							<tspan x="111.4" y="0" class="st1 st4">is </tspan>
+							<tspan x="0" y="40.8" class="st1 st4">a </tspan>
+							<tspan x="22.5" y="40.8" class="st3 st4">chapter</tspan>
+						</text>
+						<text id="arc_x5F_text" transform="matrix(1 0 0 1 888.7137 892.2003)">
+							<tspan x="0" y="0" class="st1 st4">The </tspan>
+							<tspan x="56.1" y="0" class="st3 st4">size of an arc</tspan>
+							<tspan x="235.3" y="0" class="st1 st4"> </tspan>
+							<tspan x="0" y="40.8" class="st1 st4">represents the number of </tspan>
+							<tspan x="0" y="81.6" class="st1 st4">chapters that character </tspan>
+							<tspan x="0" y="122.4" class="st1 st4">appears in</tspan>
+						</text>
+						<text id="arc_x5F_text_1_" transform="matrix(1 0 0 1 1028.3667 498.1989)">
+							<tspan x="0" y="0" class="st1 st4">A group of circles </tspan>
+							<tspan x="0" y="40.8" class="st1 st4">reveal the </tspan>
+							<tspan x="138" y="40.8" class="st3 st4">main colors</tspan>
+							<tspan x="309.1" y="40.8" class="st1 st4"> </tspan>
+							<tspan x="0" y="81.6" class="st1 st4">present in the chapter’s </tspan>
+							<tspan x="0" y="122.4" class="st3 st4">cover</tspan>
+							<tspan x="79" y="122.4" class="st1 st4"> art</tspan>
+						</text>
+				</svg>
+			</div>
+			<div id="explanation">
+				<p>The visualization above is an ode to this wonderful series. The outer rings (outside the lines) focus on all 50 chapters. Such as which Clow cards were captured in each chapter or the smaller groups of circles showing the main colors present in each chapter's cover art, all practically a piece of art. The inner ring (on the inside of the lines) concentrates on the main characters and their connections.</p>
+				<p stlye="padding-bottom: 0px;">These two main circular areas are connected by lines that change depending on which area you hover over (or click on mobile). Hovering over a character name shows all the chapters she or he appears in. Hovering over a chapter <i>pil</i> instead shows the reverse; which characters appear in that chapter. Finally, hovering over a group of colored circles will reveal the characters that are present on the chapter's cover art.</p>
+				<p id="discover-note">Discover all of Cardcaptor Sakura and see why it's one of the most beautiful manga ever made</p>
+				<img id="chibi-sakura" src="img/chibi-sakura.jpg" />
+				<p id="tsubasa-note">If you enjoy (the art of) Carcaptor Sakura, definitely check out the new Clear Card Arc & CLAMP's follow-up series 'Tsubasa Reservoir Chronicle' where you'll meet everyone again in a parallel universe!</p>
+			</div>
+		</div>
+
+
+		<!-- Credits & Data -->
+		<div id="credit">
+			<p class="credit-bold">Created with <span class="pink" style="font-size: 1.2em;">❤</span> by a devoted fan 
+				<span class="divider grey">|</span>
+				<a href="https://twitter.com/NadiehBremer" target="_new">Nadieh Bremer</a>
+				<span class="divider grey">|</span>
+				<a href="https://www.visualcinnamon.com/" target="_new">Visual Cinnamon</a>
+			</p>
+			<p class="credit-note">Images from the
+				<a href="http://ccsakura.wikia.com/wiki/Cardcaptor_Sakura_Wiki" target="_new">Cardcaptor Sakura Wikia</a>
+				<span class="divider grey">|</span> Read about the design process in <a href="http://www.datasketch.es/june">this blog</a></p>
+		</div>
+	</div>
+
+	<script>
+
+		WebFont.load({
+			google: {
+				families: ['Barlow Semi Condensed:400,400i,60','Barlow:400']
+			},
+			custom: {
+				families: ['Anime Ace']
+			},
+			active: function() { 
+				//Create the visual
+				setTimeout(create_CCS_chart,500); 
+			}
+		});
+		//setTimeout(create_CCS_chart,500)
+		// //Doesn't seem to work...
+		// document.fonts.ready.then(() => {
+		// 	setTimeout(create_CCS_chart,500)
+		//   });
+		
+		var current_width = window.innerWidth;
+		var eventTimeout; // Set timeout variable
+
+		d3.select(window).on('resize', function() {
+			//Only resize if the width is changed, not the height
+			//Otherwise you get odd behavior on mobile due to URL bar appearing and disappearing
+			if(window.innerWidth !== current_width) {
+				current_width = window.innerWidth;
+				//Ignore resize events as long as an actualResizeHandler execution is in the queue
+				if ( !eventTimeout ) {
+					eventTimeout = setTimeout(function() {
+						eventTimeout = null;
+						create_CCS_chart();
+					}, 800);
+				}
+			};
+		}, false);//on resize
+    </script>
+
+</body>
+
+</html>
